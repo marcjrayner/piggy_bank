@@ -2,9 +2,10 @@ import React, {Component} from 'react';
 import PiggyBank from './PiggyBank';
 
 class App extends Component {
-  render() {  //always need to render something
+
+  render() {  
     return (
-      <PiggyBank/>
+      <PiggyBank title="Saving pig"/>
     ); 
   }
 }
